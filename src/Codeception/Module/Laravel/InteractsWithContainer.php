@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Codeception\Module\Laravel;
 
 use Illuminate\Contracts\Foundation\Application;
+use Closure;
 
 trait InteractsWithContainer
 {
